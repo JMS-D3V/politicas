@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — PulverCalc</title>
+<style>
+  :root {
+    --bg: #ffffff; --text: #16202e; --muted: #5a6b7f; --line: #dfe5ec;
+    --accent: #1b7fb8; --panel: #f5f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1420; --text: #e8f0f8; --muted: #93a5b8; --line: #24334a;
+      --accent: #48b7ea; --panel: #141f30;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; max-width: 780px; padding: 40px 22px 80px;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 22px; margin-bottom: 34px; }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin: 38px 0 10px; }
+  .sub { color: var(--muted); margin: 0; font-size: 15px; }
+  .destaque {
+    background: var(--panel); border-left: 3px solid var(--accent);
+    padding: 16px 18px; border-radius: 0 8px 8px 0; margin: 26px 0;
+  }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  code {
+    background: var(--panel); padding: 2px 6px; border-radius: 4px;
+    font-size: 14px; font-family: ui-monospace, Consolas, monospace;
+  }
+  footer {
+    margin-top: 54px; padding-top: 22px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 14px;
+  }
+  .tabela { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">PulverCalc (<code>br.com.jmsgestao.pulvercalc</code>) &middot; Última atualização: 21 de novembro de 2026</p>
+</header>
+
+<p>
+  Esta política explica, em linguagem simples, quais dados o aplicativo PulverCalc (“app”) trata, onde eles ficam,
+  com quem são compartilhados e como você exerce seus direitos. Ela segue a Lei Geral de Proteção de Dados Pessoais
+  (LGPD &mdash; Lei nº 13.709/2018) e o Marco Civil da Internet (Lei nº 12.965/2014).
+</p>
+
+<h2>1. Quem somos</h2>
+<ul>
+  <li><strong>Controlador:</strong> <strong>JMS &mdash; Gestão e Soluções Automatizadas</strong> (“JMS”, “nós”),
+    que desenvolve e mantém o app.</li>
+  <li><strong>Contato para privacidade e para exercer seus direitos:</strong>
+    <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a></li>
+</ul>
+
+<h2>2. Resumo</h2>
+<div class="destaque">
+  O PulverCalc <strong>não pede cadastro nem login</strong>. Tudo o que você digita fica gravado <strong>somente no seu
+  aparelho</strong>. A JMS <strong>não tem servidor</strong> que receba os seus registros e não tem acesso a eles. A
+  internet só é usada para os anúncios do plano grátis (Google AdMob) e para a compra do plano pago (Google Play).
+</div>
+
+<h2>3. O que o app faz</h2>
+<p>
+  O PulverCalc faz contas de calibração de pulverizador, de calda e de tanques com os números que você digita, e guarda
+  o registro das suas aplicações. As contas são feitas dentro do aparelho e funcionam sem internet.
+</p>
+
+<h2>4. Quais dados são tratados, onde ficam e para quê</h2>
+<div class="tabela">
+<table>
+  <tr><th>Dado</th><th>Onde fica</th><th>Para quê</th><th>Base legal (LGPD)</th></tr>
+  <tr><td><strong>Dados que você digita:</strong> equipamentos, calibrações, medições de pontas, talhões, unidades de
+    área e aplicações (datas, área, clima, produtos, doses, carência, reentrada, lote, número da receita agronômica,
+    nome do responsável técnico, nome do aplicador e observações)</td>
+    <td>Só no banco de dados interno do app, no seu aparelho</td>
+    <td>Fazer as contas e guardar o registro das aplicações</td>
+    <td>Tratamento feito por você, no seu aparelho; a JMS não acessa. Quando houver dado pessoal, art. 7º, V
+    (execução do contrato de uso do app)</td></tr>
+  <tr><td><strong>Preferências:</strong> tema, critério de troca de pontas, último equipamento usado, se você já viu o
+    aviso inicial e o último estado do plano confirmado pelo Google Play</td>
+    <td>No aparelho</td>
+    <td>Lembrar suas escolhas e manter o plano pago funcionando sem internet</td>
+    <td>Art. 7º, V</td></tr>
+  <tr><td><strong>Relatórios (CSV ou PDF) e backup (arquivo .json)</strong></td>
+    <td>Onde <strong>você</strong> escolher, pelo seletor de arquivos do Android (uma pasta do aparelho, o seu Google
+    Drive, outro aplicativo)</td>
+    <td>Guardar, levar a outro aparelho ou entregar a quem você quiser</td>
+    <td>Ação sua; art. 7º, V</td></tr>
+  <tr><td><strong>Identificador de publicidade e dados do aparelho</strong> coletados pelo SDK do Google AdMob (ver
+    item 7)</td>
+    <td>Google</td>
+    <td>Mostrar anúncios no plano grátis, medir e evitar fraude</td>
+    <td>Consentimento (art. 7º, I), onde ele é pedido pela ferramenta de consentimento do Google; legítimo interesse
+    (art. 7º, IX) para anúncios não personalizados e prevenção de fraude</td></tr>
+  <tr><td><strong>Dados da compra</strong> (produto comprado e situação do plano)</td>
+    <td>Google Play; o app guarda só a situação do plano no aparelho</td>
+    <td>Liberar os recursos do plano pago</td>
+    <td>Art. 7º, V</td></tr>
+</table>
+</div>
+
+<h2>5. Seus registros só saem do aparelho quando você escolhe</h2>
+<p>
+  A JMS não tem servidor nem banco de dados que receba os seus registros. Eles não são enviados a anunciantes nem ao
+  Google. Eles só saem do aparelho quando <strong>você</strong> decide:
+</p>
+<ul>
+  <li>salvar ou compartilhar um <strong>relatório</strong> (CSV ou PDF), que inclui o número da receita e os nomes do
+    responsável técnico e do aplicador;</li>
+  <li>salvar ou compartilhar um <strong>backup</strong> (arquivo .json com todos os dados do app, sem senha).</li>
+</ul>
+<p>
+  A partir daí o arquivo fica sob o seu controle e sujeito às regras do lugar ou do aplicativo que você escolheu.
+  Guarde-o em um lugar que só você acesse. Restaurar um backup <strong>substitui</strong> todos os dados que estão no
+  app pelos dados do arquivo.
+</p>
+<p>
+  O backup automático do Android na nuvem está desligado para este app. Se você usar a transferência direta de um
+  celular para outro na troca de aparelho, o Android pode levar os dados do app junto.
+</p>
+
+<h2>6. Dados de outras pessoas que você registra</h2>
+<p>
+  Os campos “Responsável técnico” e “Aplicador” guardam nomes de outras pessoas, e o número da receita se refere a um
+  documento emitido por um profissional. Esses campos são opcionais. Se você preenchê-los, você é o responsável por
+  esses dados perante essas pessoas: registre só o necessário, avise-as de que o nome delas consta no registro e tome
+  cuidado com quem recebe os relatórios e backups. A JMS não recebe esses dados.
+</p>
+
+<h2>7. Publicidade (Google AdMob)</h2>
+<p>
+  O plano grátis mostra um banner do Google AdMob. Anúncios não aparecem nas telas de resultado. Para mostrar anúncios,
+  o SDK do Google pode coletar e processar, segundo a documentação do Google:
+</p>
+<ul>
+  <li>o identificador de publicidade do aparelho (ID de publicidade) e o ID do conjunto de apps (App Set ID);</li>
+  <li>o endereço IP, que pode ser usado para estimar a região aproximada do aparelho;</li>
+  <li>interações com o app e com o anúncio (por exemplo, exibições e toques);</li>
+  <li>informações de diagnóstico e desempenho do app e do SDK.</li>
+</ul>
+<p>
+  O Google usa esses dados para publicidade, análise e prevenção de fraude, transmite-os com criptografia e os trata
+  conforme a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidade do
+  Google</a>. Saiba mais em
+  <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.
+</p>
+<p>
+  <strong>Consentimento:</strong> antes de pedir anúncios, o app consulta a ferramenta de consentimento do Google
+  (User Messaging Platform). Nos lugares onde a lei exige, ela mostra uma mensagem para você escolher se aceita anúncios
+  personalizados. Nesses lugares, você pode mudar essa escolha a qualquer momento em
+  <em>Configurações → Opções de privacidade dos anúncios</em>.
+</p>
+<p>
+  Você também pode limitar a personalização de anúncios e redefinir ou excluir o ID de publicidade nas configurações do
+  Android (Google → Anúncios, ou Privacidade → Anúncios, conforme o aparelho). No plano pago o app não mostra anúncios
+  nem pede anúncios ao Google.
+</p>
+
+<h2>8. Plano pago (Google Play)</h2>
+<p>
+  A assinatura mensal e a compra vitalícia são contratadas e cobradas pelo Google Play. A JMS não recebe número de
+  cartão nem dados de pagamento. O app pergunta ao Google Play, no próprio aparelho, se a conta Google em uso tem um
+  plano ativo; essa resposta não é enviada a nenhum servidor da JMS. O Google Play disponibiliza à JMS, no console de
+  desenvolvedor, as informações de venda que ele fornece a todo desenvolvedor. Para cancelar, trocar a forma de
+  pagamento ou pedir reembolso, use o Google Play.
+</p>
+
+<h2>9. Permissões</h2>
+<p>
+  O app usa internet apenas para os anúncios do plano grátis e para falar com o Google Play (preços, compra e
+  confirmação do plano). Todas as contas funcionam sem internet. Para salvar e abrir arquivos, o app usa o seletor do
+  Android e só enxerga o arquivo que você escolher. O app não pede acesso a localização, câmera, microfone, contatos
+  nem às suas fotos.
+</p>
+
+<h2>10. O que não fazemos</h2>
+<ul>
+  <li>Não pedimos cadastro, login, e-mail nem telefone.</li>
+  <li>Não usamos ferramentas de análise de uso (analytics) nem de relatório de falhas de terceiros.</li>
+  <li>Não vendemos, não alugamos e não compartilhamos os seus registros.</li>
+  <li>Não temos servidor próprio que receba dados do app.</li>
+</ul>
+<p>
+  <strong>Transferência internacional (art. 33 da LGPD):</strong> os serviços do Google (AdMob e Play) podem armazenar
+  e processar dados em servidores fora do Brasil, sob as garantias contratuais e a política de privacidade do Google.
+</p>
+
+<h2 id="exclusao">11. Por quanto tempo os dados ficam e como apagar</h2>
+<p>
+  Como não há conta nem servidor, <strong>não existe pedido de exclusão a fazer à JMS</strong>: os seus registros estão
+  só no seu aparelho, e você mesmo os apaga.
+</p>
+<ul>
+  <li><strong>Registros um a um:</strong> dentro do app você pode excluir aplicações, equipamentos (com as calibrações
+    deles), unidades de área e talhões (um talhão só pode ser excluído depois de excluídas as aplicações ligadas a
+    ele).</li>
+  <li><strong>Tudo de uma vez:</strong> nas configurações do Android, abra o app PulverCalc, toque em
+    <em>Armazenamento</em> e em <em>Limpar dados</em>; ou <strong>desinstale o app</strong>. Isso apaga o banco de dados
+    e as preferências guardadas no aparelho.</li>
+  <li><strong>Sem exclusão automática:</strong> os dados ficam no aparelho até você apagá-los.</li>
+  <li><strong>Relatórios e backups</strong> que você salvou ou compartilhou <strong>não</strong> são apagados quando
+    você desinstala o app; apague-os no lugar onde estão.</li>
+  <li><strong>Dados do Google (AdMob e Play):</strong> seguem as regras do Google e as opções da sua conta Google
+    (<a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>). Você pode
+    redefinir ou excluir o ID de publicidade nas configurações do Android.</li>
+</ul>
+<p>
+  Como a JMS não recebe os seus registros, ela não tem cópia deles e não consegue recuperá-los se você os apagar ou
+  perder o aparelho. Faça backups.
+</p>
+
+<h2>12. Seus direitos (LGPD)</h2>
+<p>
+  Pelo art. 18 da LGPD, você tem direito a confirmação de tratamento, acesso, correção, anonimização, bloqueio ou
+  eliminação, portabilidade, informação sobre compartilhamento e sobre a possibilidade de não consentir, e revogação do
+  consentimento, entre outros.
+</p>
+<p>
+  Os seus registros estão no seu aparelho, onde você mesmo os vê, corrige, exporta (relatório ou backup) e apaga (item
+  11). Para os dados tratados pelo Google, use as ferramentas da sua conta Google ou fale com o Google. Para qualquer
+  pedido ou dúvida, escreva para <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a>; respondemos
+  em até 15 dias. Você também pode procurar a Autoridade Nacional de Proteção de Dados
+  (<a href="https://www.gov.br/anpd" target="_blank" rel="noopener">ANPD</a>).
+</p>
+
+<h2>13. Proteção dos dados</h2>
+<p>
+  Os dados ficam no armazenamento interno do app, protegido pelo isolamento do Android. As conexões com o Google usam
+  criptografia (HTTPS). O arquivo de backup e os relatórios não têm senha: guarde-os em lugar que só você acesse e
+  envie-os só a quem você confia. Proteger o aparelho (bloqueio de tela, atualizações) é responsabilidade sua.
+</p>
+
+<h2>14. Crianças e adolescentes</h2>
+<p>
+  O app é uma ferramenta de trabalho agrícola destinada a adultos e <strong>não é direcionado a crianças nem
+  adolescentes</strong>. Não coletamos intencionalmente dados de menores de 18 anos. Se souber de algum caso, escreva
+  para <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a>.
+</p>
+
+<h2>15. Alterações nesta política</h2>
+<p>
+  Se esta política mudar, a nova versão será publicada nesta mesma página, com a data de atualização no topo. Se a
+  mudança alterar o que o app coleta ou com quem compartilha, avisaremos também dentro do app ou na página do app no
+  Google Play.
+</p>
+
+<h2>16. Lei e foro</h2>
+<p>
+  Esta política é regida pelas leis brasileiras. Fica eleito o foro do domicílio do usuário, nos termos do Código de
+  Defesa do Consumidor.
+</p>
+
+<h2>17. Contato</h2>
+<p>
+  JMS &mdash; Gestão e Soluções Automatizadas<br>
+  E-mail: <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a><br>
+  Site: <a href="https://jmsgestao.com.br" target="_blank" rel="noopener">jmsgestao.com.br</a>
+</p>
+
+<footer>
+  JMS &mdash; Gestão e Soluções Automatizadas &middot;
+  <a href="termos.html">Termos de Uso</a> &middot;
+  <a href="#exclusao">Como apagar seus dados</a> &middot;
+  <a href="../index.html">Todos os aplicativos</a>
+</footer>
+
+</body>
+</html>
