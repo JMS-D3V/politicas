@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Custo em Dia</title>
+<style>
+  :root {
+    --bg: #ffffff; --text: #16202e; --muted: #5a6b7f; --line: #dfe5ec;
+    --accent: #1b7fb8; --panel: #f5f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1420; --text: #e8f0f8; --muted: #93a5b8; --line: #24334a;
+      --accent: #48b7ea; --panel: #141f30;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; max-width: 780px; padding: 40px 22px 80px;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 22px; margin-bottom: 34px; }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin: 38px 0 10px; }
+  .sub { color: var(--muted); margin: 0; font-size: 15px; }
+  .destaque {
+    background: var(--panel); border-left: 3px solid var(--accent);
+    padding: 16px 18px; border-radius: 0 8px 8px 0; margin: 26px 0;
+  }
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  code {
+    background: var(--panel); padding: 2px 6px; border-radius: 4px;
+    font-size: 14px; font-family: ui-monospace, Consolas, monospace;
+  }
+  footer {
+    margin-top: 54px; padding-top: 22px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 14px;
+  }
+  .tabela { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">Custo em Dia (<code>br.com.jmsgestao.custoemdia</code>) &middot; Última atualização: 22 de novembro de 2026</p>
+</header>
+
+<p>
+  Esta política explica, em linguagem simples, quais dados o aplicativo Custo em Dia (“app”) trata, onde eles ficam,
+  com quem são compartilhados e como você exerce seus direitos. Ela segue a Lei Geral de Proteção de Dados Pessoais
+  (LGPD &mdash; Lei nº 13.709/2018) e o Marco Civil da Internet (Lei nº 12.965/2014).
+</p>
+
+<h2>1. Quem somos</h2>
+<ul>
+  <li><strong>Controlador:</strong> <strong>JMS &mdash; Gestão e Soluções Automatizadas</strong> (“JMS”, “nós”),
+    que desenvolve e mantém o app.</li>
+  <li><strong>Contato para privacidade e para exercer seus direitos:</strong>
+    <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a></li>
+</ul>
+
+<h2>2. Resumo</h2>
+<div class="destaque">
+  Os dados do seu negócio (custos, insumos, produtos, fichas técnicas, notas fiscais, fornecedores e histórico de
+  cálculos) ficam <strong>no seu aparelho</strong> e, se você ligar o backup, numa <strong>pasta privada do app no seu
+  próprio Google Drive</strong>. <strong>A JMS não recebe nem guarda esses dados.</strong> O login com Google é
+  opcional: sem conta, o app funciona no aparelho. Quando você entra, o nosso servidor guarda só o identificador da sua
+  conta Google, o plano, as compras da assinatura, os aparelhos ativados e um contador de uso da leitura de nota por IA.
+</div>
+
+<h2>3. O que o app faz</h2>
+<p>
+  O Custo em Dia calcula o custo e o preço de venda de produtos e serviços de pequenos negócios (ficha técnica, rateio
+  de custos fixos, despesas sobre a venda, markup e margem, estimativa de tributos como Simples Nacional, ICMS-ST e
+  DIFAL) e guarda um histórico dos cálculos. Ele também lê notas fiscais de compra pelo arquivo XML, pelo código de
+  barras ou QR Code e por foto, para atualizar o custo dos insumos. As contas e a leitura da foto (reconhecimento de
+  texto) são feitas <strong>dentro do aparelho</strong> e funcionam sem internet.
+</p>
+
+<h2>4. Quais dados são tratados, onde ficam e para quê</h2>
+<div class="tabela">
+<table>
+  <tr><th>Dado</th><th>Onde fica</th><th>Para quê</th><th>Base legal (LGPD)</th></tr>
+  <tr><td><strong>Dados do negócio que você digita ou importa:</strong> empresa (ramo, estado, regime tributário),
+    custos fixos, despesas, mão de obra, insumos e preços, produtos, fichas técnicas, notas fiscais importadas (itens,
+    valores, nome e CNPJ do fornecedor) e histórico de cálculos</td>
+    <td>No banco de dados interno do app, no seu aparelho; e, se você ligar o backup, na pasta privada do app no
+    <strong>seu</strong> Google Drive</td>
+    <td>Fazer os cálculos, guardar o histórico e permitir backup, troca de celular e sincronização</td>
+    <td>Art. 7º, V (execução do contrato de uso do app). A JMS não acessa esses dados</td></tr>
+  <tr><td><strong>Foto da nota fiscal</strong> (câmera)</td>
+    <td>Processada no aparelho; não é enviada à JMS</td>
+    <td>Reconhecer o texto e os itens da nota</td>
+    <td>Art. 7º, V; ação sua</td></tr>
+  <tr><td><strong>Conta Google</strong> (se você tocar em “Entrar com Google”): nome e e-mail e um código de login
+    temporário (ID token) emitido pelo Google</td>
+    <td>Nome e e-mail ficam só no aparelho, para exibição. O código de login é enviado ao nosso servidor, que o confere
+    com o Google e guarda <strong>apenas o identificador numérico da conta Google</strong> (não guarda nome nem
+    e-mail)</td>
+    <td>Identificar a sua conta para o plano, as compras e os aparelhos</td>
+    <td>Art. 7º, V</td></tr>
+  <tr><td><strong>Plano e assinatura:</strong> plano (Grátis ou Pro), produto comprado, quantidade, situação e
+    validade da assinatura e o código da compra (purchase token) do Google Play</td>
+    <td>Nosso servidor (Cloudflare) e Google Play</td>
+    <td>Confirmar a compra com o Google e liberar o plano Pro</td>
+    <td>Art. 7º, V; art. 7º, II (obrigações legais e fiscais, quando aplicável)</td></tr>
+  <tr><td><strong>Aparelhos ativados:</strong> um código aleatório criado pelo app para o aparelho (não é IMEI nem
+    número de série), apelido do aparelho, data de ativação, data em que foi visto pela última vez e trocas de
+    aparelho no mês</td>
+    <td>Nosso servidor (Cloudflare); a licença assinada fica em cache no aparelho</td>
+    <td>Aplicar a regra “uma assinatura por aparelho” e evitar uso indevido</td>
+    <td>Art. 7º, V; art. 7º, IX (legítimo interesse: prevenção de fraude)</td></tr>
+  <tr><td><strong>Contador de uso da leitura de nota por IA</strong> (quantas leituras no mês)</td>
+    <td>Nosso servidor (Cloudflare)</td>
+    <td>Aplicar o limite mensal de cada plano</td>
+    <td>Art. 7º, V</td></tr>
+  <tr><td><strong>Verificação de integridade do app</strong> (Google Play Integrity) e endereço IP da conexão</td>
+    <td>Google (Play Integrity); o nosso servidor guarda o IP só em forma embaralhada (hash) e por poucos minutos,
+    para limitar abuso</td>
+    <td>Confirmar que o pedido vem do app original e proteger o serviço contra ataques</td>
+    <td>Art. 7º, IX (legítimo interesse: segurança e prevenção de fraude)</td></tr>
+  <tr><td><strong>Identificador de publicidade e dados do aparelho</strong> coletados pelo SDK do Google AdMob no
+    plano grátis (ver item 7)</td>
+    <td>Google</td>
+    <td>Mostrar anúncios, medir e evitar fraude</td>
+    <td>Consentimento (art. 7º, I), onde ele é pedido pela ferramenta de consentimento do Google; legítimo interesse
+    (art. 7º, IX) para anúncios não personalizados e prevenção de fraude</td></tr>
+  <tr><td><strong>Preferências</strong> (onboarding concluído, telas e escolhas do app)</td>
+    <td>No aparelho</td>
+    <td>Lembrar as suas escolhas</td>
+    <td>Art. 7º, V</td></tr>
+</table>
+</div>
+
+<h2>5. Google Drive: os dados ficam na sua conta</h2>
+<p>
+  O backup é opcional e só funciona depois que você entra com Google e liga “Salvar no meu Google Drive”. O app pede
+  ao Google apenas a permissão <code>drive.appdata</code>: uma <strong>pasta oculta e exclusiva do app</strong> no seu
+  Drive. O app não vê os seus outros arquivos e ninguém mais vê os arquivos do app. A JMS não tem acesso a essa pasta.
+</p>
+<ul>
+  <li>Ficam lá cópias do banco de dados do app (dados do negócio e histórico), usadas para restaurar num celular novo
+    e, no plano Pro, para sincronizar os seus aparelhos.</li>
+  <li>Você pode <strong>proteger o backup com senha</strong> (criptografia AES-256 feita no aparelho). Sem a senha,
+    nem a JMS nem o Google conseguem ler o conteúdo. Se você esquecer a senha, o backup não pode ser recuperado.</li>
+  <li>O espaço usado conta na cota do seu Google Drive.</li>
+</ul>
+
+<h2>6. Leitura de nota fiscal</h2>
+<ul>
+  <li><strong>XML, código de barras e QR Code:</strong> lidos no aparelho. O app não abre sozinho endereços de
+    internet contidos no QR Code.</li>
+  <li><strong>Foto:</strong> a câmera só é usada quando você toca para fotografar a nota. O reconhecimento de texto é
+    feito no aparelho (Google ML Kit, com modelos embutidos no app); a foto não é enviada à JMS.</li>
+  <li><strong>Leitura por IA na nuvem (opcional, quando disponível):</strong> se você usar esse recurso, o app envia ao
+    nosso servidor <strong>somente o texto reconhecido da nota</strong>, com números de CPF mascarados, nunca a foto.
+    O texto é interpretado por um modelo de IA executado na própria Cloudflare (Workers AI), o resultado volta ao
+    aparelho e o texto é <strong>descartado</strong>: não guardamos o conteúdo da nota. Guardamos só o contador de
+    leituras do mês.</li>
+</ul>
+
+<h2>7. Publicidade (Google AdMob)</h2>
+<p>
+  O plano grátis mostra anúncios do Google AdMob. Para mostrar anúncios, o SDK do Google pode coletar e processar,
+  segundo a documentação do Google:
+</p>
+<ul>
+  <li>o identificador de publicidade do aparelho (ID de publicidade) e o ID do conjunto de apps (App Set ID);</li>
+  <li>o endereço IP, que pode ser usado para estimar a região aproximada do aparelho;</li>
+  <li>interações com o app e com o anúncio (por exemplo, exibições e toques);</li>
+  <li>informações de diagnóstico e desempenho do app e do SDK.</li>
+</ul>
+<p>
+  O Google usa esses dados para publicidade, análise e prevenção de fraude, transmite-os com criptografia e os trata
+  conforme a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidade do
+  Google</a>. Saiba mais em
+  <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.
+  Os dados do seu negócio <strong>não</strong> são enviados a anunciantes nem ao AdMob.
+</p>
+<p>
+  <strong>Consentimento:</strong> antes de pedir anúncios, o app consulta a ferramenta de consentimento do Google
+  (User Messaging Platform). Nos lugares onde a lei exige, ela mostra uma mensagem para você escolher se aceita
+  anúncios personalizados, e o app oferece uma opção para mudar essa escolha depois.
+</p>
+<p>
+  Você também pode limitar a personalização de anúncios e redefinir ou excluir o ID de publicidade nas configurações
+  do Android (Google → Anúncios, ou Privacidade → Anúncios, conforme o aparelho). No plano Pro o app não mostra
+  anúncios.
+</p>
+
+<h2>8. Com quem compartilhamos</h2>
+<p>Não vendemos nem alugamos dados. Usamos estes fornecedores, cada um só para a finalidade descrita:</p>
+<ul>
+  <li><strong>Google</strong> (Google LLC): login com Google, Google Drive (na sua conta), Google Play (compras e
+    verificação de integridade do app), Google AdMob (anúncios) e ML Kit (reconhecimento de texto no aparelho).</li>
+  <li><strong>Cloudflare</strong> (Cloudflare, Inc.): hospeda o nosso servidor e o banco de dados com conta, plano,
+    compras, aparelhos e contador de IA, e executa a leitura de nota por IA, quando usada.</li>
+  <li><strong>Autoridades</strong>, quando houver ordem judicial ou obrigação legal.</li>
+</ul>
+<p>
+  <strong>Transferência internacional (art. 33 da LGPD):</strong> Google e Cloudflare podem armazenar e processar dados
+  em servidores fora do Brasil, sob as suas garantias contratuais e políticas de privacidade.
+</p>
+
+<h2>9. Permissões do Android</h2>
+<ul>
+  <li><strong>Internet e estado da rede:</strong> login, backup no Drive, compras, anúncios, tabelas tributárias
+    atualizadas e leitura por IA. Os cálculos funcionam sem internet.</li>
+  <li><strong>Câmera:</strong> pedida só quando você toca para fotografar uma nota ou ler um código. Você pode negar e
+    continuar usando o app pelo XML ou digitando.</li>
+  <li><strong>ID de publicidade:</strong> usado pelo SDK do AdMob no plano grátis (item 7).</li>
+</ul>
+<p>
+  Para abrir um XML, o app usa o seletor de arquivos do Android e só enxerga o arquivo que você escolher. O app não
+  pede acesso a localização, microfone, contatos nem à sua galeria de fotos.
+</p>
+
+<h2>10. O que não fazemos</h2>
+<ul>
+  <li>Não guardamos os dados do seu negócio no nosso servidor.</li>
+  <li>Não usamos ferramentas de análise de uso (analytics) nem de relatório de falhas de terceiros. O Google Play pode
+    nos mostrar estatísticas agregadas de falhas e desempenho (Android vitals) que ele coleta conforme as configurações
+    do seu aparelho.</li>
+  <li>Não vendemos, não alugamos e não compartilhamos os seus dados com anunciantes.</li>
+  <li>Não registramos em logs valores, CNPJ, CPF, e-mail, códigos de acesso nem o conteúdo das notas.</li>
+</ul>
+
+<h2 id="exclusao">11. Por quanto tempo os dados ficam e como apagar</h2>
+<p><strong>Retenção:</strong></p>
+<ul>
+  <li><strong>No aparelho e no seu Drive:</strong> até você apagar.</li>
+  <li><strong>No nosso servidor</strong> (identificador da conta, plano, compras, aparelhos, contador de IA): enquanto
+    a conta existir. Excluída a conta, apagamos tudo na hora. Registros de compra podem ser mantidos pelo prazo exigido
+    pela lei fiscal ou para defesa em processo (art. 16 da LGPD), quando aplicável.</li>
+  <li><strong>Controle de abuso</strong> (IP embaralhado): poucos minutos.</li>
+  <li><strong>Texto da nota enviado à IA:</strong> não é guardado.</li>
+</ul>
+<p><strong>Como excluir a conta e os dados (dentro do app):</strong></p>
+<ol>
+  <li>Abra o Custo em Dia e toque na aba <strong>Configurar</strong>.</li>
+  <li>Toque em <strong>Conta e nuvem</strong>.</li>
+  <li>Na seção <strong>Excluir conta</strong>, toque em <strong>Excluir minha conta</strong> e confirme em
+    <strong>Excluir</strong>.</li>
+</ol>
+<p>
+  Isso apaga do nosso servidor a conta, as compras vinculadas, os aparelhos e o contador de IA, e apaga a pasta do app
+  no seu Google Drive. <strong>Não dá para desfazer.</strong> Os dados que estão no aparelho continuam nele: para
+  apagá-los, <strong>desinstale o app</strong> ou use <em>Configurações do Android → Apps → Custo em Dia →
+  Armazenamento → Limpar dados</em>. Excluir a conta <strong>não cancela</strong> a assinatura: cancele no Google Play
+  em <em>Pagamentos e assinaturas → Assinaturas</em>.
+</p>
+<p>
+  <strong>Sem acesso ao app?</strong> Escreva para
+  <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a> a partir do e-mail da conta Google usada no app,
+  pedindo a exclusão. Apagamos os dados do servidor em até 15 dias e confirmamos por e-mail. A pasta no Drive você pode
+  apagar em <a href="https://drive.google.com" target="_blank" rel="noopener">drive.google.com</a> → Configurações →
+  Gerenciar apps → Custo em Dia → Opções → Excluir dados ocultos do app. Veja também a página
+  <a href="exclusao-de-dados.html">Exclusão de dados</a>.
+</p>
+<p>
+  Arquivos que você exportou ou compartilhou ficam onde você os salvou; apague-os nesses lugares. Os dados tratados
+  pelo Google seguem as opções da sua conta Google
+  (<a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>).
+</p>
+
+<h2>12. Seus direitos (LGPD)</h2>
+<p>
+  Pelo art. 18 da LGPD, você tem direito a confirmação de tratamento, acesso, correção, anonimização, bloqueio ou
+  eliminação, portabilidade, informação sobre compartilhamento e sobre a possibilidade de não consentir, e revogação do
+  consentimento, entre outros.
+</p>
+<p>
+  Os dados do negócio estão no seu aparelho e no seu Drive, onde você mesmo os vê, corrige e apaga. Para os dados do
+  nosso servidor, use a exclusão dentro do app (item 11) ou escreva para
+  <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a>; respondemos em até 15 dias. Você também pode
+  procurar a Autoridade Nacional de Proteção de Dados
+  (<a href="https://www.gov.br/anpd" target="_blank" rel="noopener">ANPD</a>).
+</p>
+
+<h2>13. Proteção dos dados</h2>
+<p>
+  Os dados no aparelho ficam no armazenamento interno do app, protegido pelo isolamento do Android; o backup automático
+  do Android está desligado para este app (o backup é o do Google Drive, controlado por você). Todas as conexões usam
+  criptografia (HTTPS). O servidor confere o login com as chaves públicas do Google, valida as compras direto com o
+  Google Play e só aceita pedidos do app original. A licença do plano é assinada digitalmente. Proteger o aparelho e a
+  sua conta Google (bloqueio de tela, verificação em duas etapas) é responsabilidade sua. Em caso de incidente de
+  segurança relevante, comunicaremos a ANPD e os titulares afetados, como manda o art. 48 da LGPD.
+</p>
+
+<h2>14. Crianças e adolescentes</h2>
+<p>
+  O app é uma ferramenta de gestão para negócios e <strong>não é direcionado a crianças nem adolescentes</strong>. Não
+  coletamos intencionalmente dados de menores de 18 anos. Se souber de algum caso, escreva para
+  <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a>.
+</p>
+
+<h2>15. Alterações nesta política</h2>
+<p>
+  Se esta política mudar, a nova versão será publicada nesta mesma página, com a data de atualização no topo. Se a
+  mudança alterar o que o app coleta ou com quem compartilha, avisaremos também dentro do app ou na página do app no
+  Google Play.
+</p>
+
+<h2>16. Lei e foro</h2>
+<p>
+  Esta política é regida pelas leis brasileiras. Fica eleito o foro do domicílio do usuário, nos termos do Código de
+  Defesa do Consumidor.
+</p>
+
+<h2>17. Contato</h2>
+<p>
+  JMS &mdash; Gestão e Soluções Automatizadas<br>
+  E-mail: <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a><br>
+  Site: <a href="https://jmsgestao.com.br" target="_blank" rel="noopener">jmsgestao.com.br</a>
+</p>
+
+<footer>
+  JMS &mdash; Gestão e Soluções Automatizadas &middot;
+  <a href="termos.html">Termos de Uso</a> &middot;
+  <a href="exclusao-de-dados.html">Como apagar seus dados</a> &middot;
+  <a href="../index.html">Todos os aplicativos</a>
+</footer>
+
+</body>
+</html>

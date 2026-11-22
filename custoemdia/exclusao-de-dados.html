@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exclusão de dados — Custo em Dia</title>
+<style>
+  :root {
+    --bg: #ffffff; --text: #16202e; --muted: #5a6b7f; --line: #dfe5ec;
+    --accent: #1b7fb8; --panel: #f5f8fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1420; --text: #e8f0f8; --muted: #93a5b8; --line: #24334a;
+      --accent: #48b7ea; --panel: #141f30;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; max-width: 780px; padding: 40px 22px 80px;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 22px; margin-bottom: 34px; }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin: 38px 0 10px; }
+  h3 { font-size: 17px; margin: 28px 0 8px; }
+  .sub { color: var(--muted); margin: 0; font-size: 15px; }
+  .destaque {
+    background: var(--panel); border-left: 3px solid var(--accent);
+    padding: 16px 18px; border-radius: 0 8px 8px 0; margin: 26px 0;
+  }
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  code {
+    background: var(--panel); padding: 2px 6px; border-radius: 4px;
+    font-size: 14px; font-family: ui-monospace, Consolas, monospace;
+  }
+  footer {
+    margin-top: 54px; padding-top: 22px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Exclusão de dados</h1>
+  <p class="sub">Custo em Dia &middot; JMS &mdash; Gestão e Soluções Automatizadas &middot; Última atualização: 22 de novembro de 2026</p>
+</header>
+
+<h2>Como excluir sua conta e seus dados do Custo em Dia</h2>
+
+<div class="destaque">
+  Os dados do seu negócio ficam <strong>no seu aparelho</strong> e, se você ligou o backup, numa pasta privada do app no
+  <strong>seu</strong> Google Drive. O servidor da JMS guarda só o identificador da sua conta Google, o plano, as
+  compras da assinatura, os aparelhos ativados e o contador de leituras de nota por IA. Você pode apagar tudo isso
+  sozinho, dentro do app, ou pedir por e-mail.
+</div>
+
+<h3>1. Excluir a conta (dentro do app)</h3>
+<ol>
+  <li>Abra o Custo em Dia e toque na aba <strong>Configurar</strong>.</li>
+  <li>Toque em <strong>Conta e nuvem</strong>.</li>
+  <li>Na seção <strong>Excluir conta</strong>, toque em <strong>Excluir minha conta</strong>.</li>
+  <li>Confirme em <strong>Excluir</strong>.</li>
+</ol>
+<p>
+  São apagados <strong>na hora</strong>: do servidor da JMS, a conta, as compras vinculadas, a lista de aparelhos, as
+  trocas de aparelho e o contador de IA; do seu Google Drive, a pasta privada do app (backup e histórico).
+  <strong>Não dá para desfazer.</strong> Os dados que estão no aparelho continuam nele (veja o passo 2).
+</p>
+
+<h3>2. Apagar os dados do aparelho</h3>
+<p>
+  <strong>Desinstale o app</strong> ou use <em>Configurações do Android → Apps → Custo em Dia → Armazenamento → Limpar
+  dados</em>. Isso apaga o banco de dados (empresa, custos, insumos, produtos, notas e histórico) e as preferências.
+  Se quiser guardar os dados, não exclua a conta antes de restaurá-los em outro aparelho.
+</p>
+
+<h3>3. Sem acesso ao app: pedido por e-mail</h3>
+<ol>
+  <li>Escreva para <a href="mailto:suporte@jmsgestao.com.br?subject=Excluir%20conta%20Custo%20em%20Dia">suporte@jmsgestao.com.br</a>
+    com o assunto <strong>“Excluir conta Custo em Dia”</strong>, <strong>a partir do e-mail da conta Google</strong>
+    que você usou no app (é assim que confirmamos que o pedido é seu).</li>
+  <li>Apagamos os dados do servidor em até <strong>15 dias</strong> e respondemos confirmando.</li>
+  <li>A pasta do app no Drive fica na sua conta e a JMS não tem acesso a ela. Apague-a assim: abra
+    <a href="https://drive.google.com" target="_blank" rel="noopener">drive.google.com</a> no computador com a mesma
+    conta → engrenagem → <strong>Configurações → Gerenciar apps</strong> → <strong>Custo em Dia</strong> →
+    <strong>Opções → Excluir dados ocultos do app</strong>.</li>
+</ol>
+
+<h3>4. Retirar o acesso do app à sua conta Google</h3>
+<p>
+  Abra a sua <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener">Conta Google</a>, em
+  <em>Segurança → Apps e serviços de terceiros</em>, e remova o acesso do Custo em Dia.
+</p>
+
+<h3>5. Assinatura, anúncios e Google</h3>
+<ul>
+  <li>Excluir a conta <strong>não cancela</strong> a assinatura Pro. Cancele no Google Play em <em>Pagamentos e
+    assinaturas → Assinaturas</em>.</li>
+  <li>Os dados de anúncios são tratados pelo Google AdMob. Você pode redefinir ou excluir o ID de publicidade nas
+    configurações do Android (<em>Configurações → Google → Anúncios</em> ou <em>Privacidade → Anúncios</em>).</li>
+  <li>Dados guardados pelo Google podem ser geridos em
+    <a href="https://myaccount.google.com" target="_blank" rel="noopener">myaccount.google.com</a>.</li>
+</ul>
+
+<h3>6. O que pode ser mantido</h3>
+<p>
+  Registros de compra podem ser guardados pelo prazo exigido pela lei fiscal ou para defesa em processo (art. 16 da
+  LGPD), quando aplicável. Se você nos escreveu por e-mail, a mensagem fica na caixa de suporte; peça a exclusão pelo
+  mesmo e-mail e ela será apagada. Arquivos que você exportou ou compartilhou ficam onde você os salvou.
+</p>
+
+<h3>7. Dúvidas</h3>
+<p>
+  Escreva para <a href="mailto:suporte@jmsgestao.com.br">suporte@jmsgestao.com.br</a>. Mais detalhes na
+  <a href="privacidade.html">Política de Privacidade</a>.
+</p>
+
+<footer>
+  JMS &mdash; Gestão e Soluções Automatizadas &middot;
+  <a href="privacidade.html">Política de Privacidade</a> &middot;
+  <a href="termos.html">Termos de Uso</a> &middot;
+  <a href="../index.html">Todos os aplicativos</a>
+</footer>
+
+</body>
+</html>

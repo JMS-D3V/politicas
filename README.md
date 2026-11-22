@@ -12,6 +12,7 @@ da Google Play de uma URL pública e permanente.
 | Peso da Lida (`br.com.jmsgestao.pesodalida`) | [pt](pesodalida/privacidade.html) · [es](pesodalida/privacidade-es.html) · [en](pesodalida/privacidade-en.html) | [pt](pesodalida/termos.html) · [es](pesodalida/termos-es.html) · [en](pesodalida/termos-en.html) | [pt/es/en](pesodalida/exclusao-de-dados.html) |
 | Medidor em Dia (`br.com.jmsgestao.medidoremdia`) | [privacidade](medidoremdia/privacidade.html) | [termos](medidoremdia/termos.html) | — |
 | PulverCalc (`br.com.jmsgestao.pulvercalc`) | [pt](pulvercalc/privacidade.html) | [pt](pulvercalc/termos.html) | [seção 11 da privacidade](pulvercalc/privacidade.html#exclusao) |
+| Custo em Dia (`br.com.jmsgestao.custoemdia`) | [pt](custoemdia/privacidade.html) | [pt](custoemdia/termos.html) | [pt](custoemdia/exclusao-de-dados.html) (resumo também em `privacidade.html#exclusao`) |
 
 ## Endereços publicados
 
@@ -29,9 +30,14 @@ da Google Play de uma URL pública e permanente.
 - PulverCalc — privacidade: https://jms-d3v.github.io/politicas/pulvercalc/privacidade.html
   (exclusão de dados: `#exclusao` na mesma página)
 - PulverCalc — termos: https://jms-d3v.github.io/politicas/pulvercalc/termos.html
+- Custo em Dia — privacidade: https://jms-d3v.github.io/politicas/custoemdia/privacidade.html
+  (resumo da exclusão: `#exclusao` na mesma página)
+- Custo em Dia — termos: https://jms-d3v.github.io/politicas/custoemdia/termos.html
+- Custo em Dia — exclusão de dados: https://jms-d3v.github.io/politicas/custoemdia/exclusao-de-dados.html
 
 O texto-fonte do Peso da Lida fica em `APP_COLETOR_RURAL/docs/loja/*.md`, e o do Medidor em Dia em `APP_MEDIDORES/docs/loja/politica-e-termos-rascunho.md`: mudou lá, mude aqui (e vice-versa).
 O do PulverCalc fica em `APP_PULVERIZADOR/docs/loja/rascunhos/*.md`.
+O Custo em Dia não tem rascunho separado: o HTML daqui é a fonte; a ficha e os formulários do Play ficam em `APP_CUSTO/docs/loja/`.
 
 Estas páginas são provisórias: a intenção é migrá-las para jmsgestao.com.br.
 Quando isso acontecer, atualize a URL na ficha da Play Store antes de desativar estas.
@@ -39,4 +45,4 @@ Quando isso acontecer, atualize a URL na ficha da Play Store antes de desativar 
 ## Contato
 
 - Jogos: suportegames@jmsgestao.com.br
-- Peso da Lida, PulverCalc e Medidor em Dia: suporte@jmsgestao.com.br
+- Peso da Lida, PulverCalc, Medidor em Dia e Custo em Dia: suporte@jmsgestao.com.br
